@@ -1,8 +1,12 @@
 package com.mf.GerenciadorMF.Models;
 
 
-import com.fasterxml.jackson.annotation.JsonTypeId;
-import javax.persistence.*;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
